@@ -1,7 +1,7 @@
 ```javascript
 export const LoginForm = {
   title: {
-    text: "Log in",
+    text: "Form Builder",
     label: "👋🏼",
     labelEmoji: "hello",
   },
@@ -9,26 +9,70 @@ export const LoginForm = {
     [
       {
         name: "name",
-        emoji: "🙍",
+        label: "🙍🏻",
         type: "text",
-        placeholder: "John Doe in da house",
+        placeholder: "John",
       },
-      
+      {
+        name: "surName",
+        label: "🙍🏻",
+        type: "text",
+        placeholder: "Doe ",
+      },
+    ],
+    [
+      {
+        name: "checkbox",
+        label: "😄",
+        type: "checkbox",
+        emojiLabel: "happy",
+      },
+
+      {
+        name: "checkbox2",
+        label: "🤣",
+        type: "checkbox",
+        emojiLabel: "laught",
+      },
+      {
+        name: "checkbox2",
+        label: "😇 ",
+        type: "checkbox",
+        emojiLabel: "saint",
+      },
+      {
+        name: "other",
+        label: "👉",
+        type: "text",
+        emojiLabel: "hand pointed",
+        placeholder: "Other",
+      },
     ],
     [
       {
         name: "password",
-        emoji: "🔒",
+        label: "🔒",
         type: "text",
+        emojiLabel: "lock",
+        placeholder: "**************",
+      },
+    ],
+    [
+      {
+        name: "confirmPassword",
+        label: "🔒",
+        type: "text",
+        emojiLabel: "lock",
         placeholder: "**************",
       },
     ],
   ],
   button: {
-    text: "LOG IN",
+    text: "GO",
     label: "✒️",
     emojiLabel: "pencil",
   },
 };
+
 
 ```
