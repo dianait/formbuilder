@@ -4,7 +4,7 @@ import { LoginForm } from "./Data/loginForm";
 import Container from "./components/Container";
 export default function App() {
   return (
-    <Container width="800px">
+    <Container width="00px">
       <CustomForm props={LoginForm} />
     </Container>
   );

@@ -1,3 +1,19 @@
+# Form Builder with React
+![form preview](./public/img/formbuilderpreview.JPG)
+
+## Use
+```javascript
+import React from "react";
+import CustomForm from "./components/CustomForm";
+import { LoginForm } from "./Data/loginForm";
+
+export default function App() {
+  return <CustomForm props={LoginForm} />
+}
+
+```
+
+## Data structure
 ```javascript
 export const LoginForm = {
   title: {
