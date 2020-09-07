@@ -1,4 +1,5 @@
 ### react ###
+.vscode
 .DS_*
 *.log
 logs
